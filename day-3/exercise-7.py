@@ -65,7 +65,7 @@ for data in datalist:
 
 def number_printer():
     for numbs in range(0,6):
-        if numbs != 3 & 6:
+        if numbs != 3 and 6:
             print(numbs)
 
 number_printer()
