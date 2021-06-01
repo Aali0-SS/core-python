@@ -98,3 +98,19 @@ def str_checker(str):
         return False
 
 print(str_checker('Ahmed', 'Ali'))
+
+
+# 12.
+def twice_far(num):
+    return num * -7
+
+twice_far(5)
+
+
+
+# 13.
+def capitalize(str):
+    if str[0] and str[3]:
+        return str.upper()
+
+print(capitalize('Champion'))
